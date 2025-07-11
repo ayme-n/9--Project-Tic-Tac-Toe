@@ -54,13 +54,14 @@
 .Names{
     
     justify-self: center;
+    background-color: #3e435a;
     align-self:center;
     grid-row: 2/3;
 }
 
 #myForm{
-    border:   #161821 4px solid;
-    border-radius: 1rem;
+    border:   #161821 6px solid;
+    border-radius: 0.2rem;
     padding: 25px;
     display: grid;
     justify-content: center;
@@ -70,7 +71,7 @@
     grid-template-rows: 1fr 1fr 1fr;
     width: 17rem;
     font-size: 1rem;
-    color:#A3A9C2;
+    color:#ffffff;
     
 }
 
@@ -97,13 +98,13 @@
     width: 8rem;
     text-align: center;
     color: #161821;
-    background-color:  #7E85A7;
+    background-color:  #ffffff;
     border-radius: 0.2rem;
 }
 
 
 #myForm input:focus{
-    border: 2px #161821 solid;
+    border: 2px #c3c4cc solid;
 }
 
 .restart{
@@ -125,7 +126,7 @@
 
 #myForm button{
     border: none;
-    width: 6rem;
+    width: 4rem;
     height: 1.5rem;
     border-radius: 4rem;
     background-color:  #7E85A7;
